@@ -14,7 +14,7 @@ bonus*:
 
 ### Screenshot
 
-![Screenshot](Screenshot_01.gif "Screenshot")
+![Screenshot](Screenshot_02.gif "Screenshot")
 
 ### Link
 
