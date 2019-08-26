@@ -1,7 +1,7 @@
 # API Project: Timestamp Microservice for FCC
 ### About the project
 
-it's a freecodecamp project in the "Apis and Microservices Projects" module, you have to build a back-end that will return a json response containing 'unix' and 'utc' timestamp.
+it's a freecodecamp project in the "Apis and Microservices Projects" module, you have to build an API that will return a json response containing 'unix' and 'utc' timestamp.
 
 bonus*: 
 - Front-end using React
@@ -29,12 +29,3 @@ https://fcc-bt-timestamp.glitch.me
 ```{"unix": <date.getTime()>, "utc" : <date.toUTCString()> }```
 e.g. ```{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}```.
 5. If the date string is **invalid** the api returns a JSON having the structure ```{"unix": null, "utc" : "Invalid Date" }```. It is what you get from the date manipulation functions used above.
-
-#### Example usage
-
-* https://curse-arrow.hyperdev.space/api/timestamp/2015-12-15
-* https://curse-arrow.hyperdev.space/api/timestamp/1450137600000
-
-#### Example output
-
-* { "unix": 1450137600, "natural": "December 15, 2015" }
